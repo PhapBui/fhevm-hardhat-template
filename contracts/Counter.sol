@@ -20,4 +20,8 @@ contract Counter {
     require(_count >= value, "Counter: cannot decrement below zero");
     _count -= value;
   }
+  ///@notice Demacia
+  function aladin() external view returns(uint32) {
+    return _count;
+  }
 }
